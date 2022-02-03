@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.ib {
+	display:inline-block; /*改行されなくなる*/
+}
+.th0, .th1, .th2, .td0, .td1, .td2 {
+	display:inline-block;
+	padding-bottom:5px; /*下に余白ができる*/
+}
+.th0, .th1, .th2 {
+	text-align:center;   /*太字が中央揃えになる*/
+	font-weight:bold;   /*太字になる*/
+}
+.th0, .td0 {
+	width:4em;
+}
+.th1, .td1 {
+	width:11em;
+}
+body{width: 640px }
